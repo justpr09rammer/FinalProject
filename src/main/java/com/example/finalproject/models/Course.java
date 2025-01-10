@@ -18,7 +18,7 @@ public class Course {
     private Long id;
     private String name;
     private String description;
-
+    private String trying;
     @ManyToOne
     @JoinColumn(name = "teacher_id")
     private Teacher teacher;

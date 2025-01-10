@@ -23,7 +23,7 @@ public class Teacher {
     private String description;
     private String phoneNumber;
     private String location;
-
+    private String trying;
     @OneToMany(mappedBy = "teacher")
     private List<Course> courses = new ArrayList<>();
 
